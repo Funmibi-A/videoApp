@@ -1,6 +1,6 @@
 # VideoApp - Video Sharing Platform
 
-A modern, minimalist video sharing platform with a clean dark mode interface and social features.
+A modern, minimalist video sharing platform
 
 ## Features
 
@@ -40,7 +40,7 @@ A modern, minimalist video sharing platform with a clean dark mode interface and
 ## Installation
 
 ### Prerequisites
-- Node.js (v14+ recommended)
+- Node.js (v18+)
 - npm or yarn
 
 ### Setup Instructions
@@ -182,37 +182,17 @@ This uses nodemon to automatically restart the server on changes.
 - Safari
 - Edge
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## Future Enhancements
-
-- [ ] Video thumbnails generation
-- [ ] User profiles and avatars
-- [ ] Video categories and search
-- [ ] Push notifications
-- [ ] Video streaming optimization
-- [ ] Admin panel
-- [ ] Content moderation
-- [ ] Mobile app
 
 ## License
 
 MIT License - See LICENSE file for details
 
-## Support
+## T-shoot
 
 If you encounter any issues:
 1. Check the browser console for errors
 2. Ensure all dependencies are installed
 3. Verify the server is running on the correct port
-4. Check file permissions for uploads directory
+4. Check file permissions for the uploads directory
 
 ---
-
-**Happy sharing! 🎬✨**# videoApp
