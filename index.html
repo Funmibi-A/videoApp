@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion - [TRACKR]</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .section h2:before {
+            content: '';
+            width: 4px;
+            height: 24px;
+            background: #667eea;
+            margin-right: 10px;
+            border-radius: 2px;
+        }
+        
+        .steps {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .steps ol {
+            padding-left: 20px;
+        }
+        
+        .steps li {
+            margin: 15px 0;
+            color: #555;
+        }
+        
+        .data-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 10px 0;
+            border: 3px;
+        }
+        
+        .data-item {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border: 3px solid #667eea;
+        }
+        
+        .data-item:before {
+            content: '✓';
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .retention-box {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .retention-box h3 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+        
+        .contact-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin: 20px 0;
+        }
+        
+        .contact-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+        
+        .timeline {
+            background: #e8f4fd;
+            border-left: 3px solid #667eea;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        
+        .timeline h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .data-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Account Deletion Request</h1>
+            <p><strong>TRACKR</strong> - Data Privacy & Account Management</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>How to Request Account Deletion</h2>
+                <p>We respect your right to control your personal data. Follow these simple steps to request deletion of your [Your App Name] account and associated data:</p>
+                
+                <div class="steps">
+                    <ol>
+                        <li><strong>Send an email</strong> to our data privacy team using the button below</li>
+                        <li><strong>Include your registered email address</strong> or username associated with your [Your App Name] account</li>
+                        <li><strong>Use the subject line:</strong> "Account Deletion Request - [Your Username/Email]"</li>
+                        <li><strong>We'll send a confirmation email</strong> within 48 hours to verify your identity</li>
+                        <li><strong>Confirm your request</strong> by responding to our verification email</li>
+                        <li><strong>Your account will be deleted</strong> within 30 days of confirmation</li>
+                    </ol>
+                </div>
+                
+                <center>
+                    <a href="mailto:support@yourapp.com?subject=Account%20Deletion%20Request" class="contact-button">
+                        Request Account Deletion
+                    </a>
+                </center>
+            </div>
+            
+            <div class="section">
+                <h2>Data That Will Be Deleted</h2>
+                <p>When you request account deletion, the following data will be permanently removed:</p>
+                
+                <div class="data-list">
+                    <div class="data-item">Personal Profile Information</div>
+                    <div class="data-item">Email Address</div>
+                    <div class="data-item">Phone Number</div>
+                    <div class="data-item">Profile Photos & Media</div>
+                    <div class="data-item">Posts & Comments</div>
+                    <div class="data-item">Messages & Chat History</div>
+                    <div class="data-item">Location Data</div>
+                    <div class="data-item">App Preferences & Settings</div>
+                    <div class="data-item">Search History</div>
+                    <div class="data-item">Connected Social Accounts</div>
+                    <div class="data-item">Activity Logs</div>
+                    <div class="data-item">Custom User Content</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Data Retention Policy</h2>
+                
+                <div class="retention-box">
+                    <h3>⚠️ Limited Data Retention for Legal Compliance</h3>
+                    <p>Please note that certain data may be retained for legal and regulatory compliance:</p>
+                    <ul style="margin-top: 15px; padding-left: 20px;">
+                        <li><strong>Transaction Records:</strong> Retained for 7 years for financial compliance</li>
+                        <li><strong>Legal Documents:</strong> Communications related to legal matters or disputes</li>
+                        <li><strong>Abuse Prevention:</strong> Limited data to prevent platform abuse and fraud</li>
+                    </ul>
+                    <p style="margin-top: 15px;">This retained data is securely stored and only accessible for legal compliance purposes.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Deletion Timeline</h2>
+                
+                <div class="timeline">
+                    <h3>📅 Expected Processing Time</h3>
+                    <ul style="padding-left: 20px; margin-top: 10px;">
+                        <li><strong>Initial Response:</strong> Within 48 hours</li>
+                        <li><strong>Identity Verification:</strong> 1-3 business days</li>
+                        <li><strong>Complete Deletion:</strong> Within 30 days of confirmation</li>
+                        <li><strong>Backup Systems:</strong> May take up to 90 days for complete removal from all backup systems</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Alternative Options</h2>
+                <p>Before deleting your account, you may want to consider:</p>
+                <ul style="padding-left: 20px; margin-top: 10px;">
+                    <li><strong>Account Deactivation:</strong> Temporarily disable your account (can be reactivated later)</li>
+                    <li><strong>Data Export:</strong> Download a copy of your data before deletion</li>
+                    <li><strong>Privacy Settings:</strong> Adjust your privacy settings instead of full deletion</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>Need Help?</h2>
+                <p>If you have questions about the account deletion process or your data privacy rights, please contact our support team:</p>
+                <p style="margin-top: 15px;">
+                    📧 Email: <a href="mailto:support@yourapp.com" style="color: #667eea;">support@yourapp.com</a><br>
+                    📱 In-App: Settings → Help & Support → Contact Us
+                </p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2024 [Your Company Name]. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="#">Privacy Policy</a> • 
+                <a href="#">Terms of Service</a> • 
+                <a href="#">Data Protection</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
